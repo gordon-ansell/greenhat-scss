@@ -1,0 +1,22 @@
+{
+	"name": "GreenHat SCSS",
+	"version": "0.1.0",
+	"description": "SCSS to support GreenHat apps.",
+	"homepage": "https://gordonansell.com/greenhat-scss",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "Gordon Ansell",
+			"email": "contact@gordonansell.com"
+		}
+	],
+    "files": [
+        "base/",
+        "bem/"
+    ],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/gordon-ansell/greenhat-scss.git"
+	}
+}

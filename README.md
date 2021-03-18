@@ -1,2 +1,2 @@
 # greenhat-scss
-My SCSS library,
+My SCSS library.

@@ -1,0 +1,45 @@
+
+
+.flextable {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: $ft-font-size;
+    margin: $ft-margin;
+    line-height: $ft-line-height;
+    border-bottom: $ft-border-bottom;
+    flex: 1 1 auto;
+
+    .th {
+        display: none;
+        font-weight: $ft-th-font-weight;
+    }
+      
+    .th > .td {
+        white-space: normal;
+        //justify-content: center;
+    }
+      
+    .tr {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+            
+    .td {
+        display: flex;
+        flex-flow: row nowrap;
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: $ft-td-padding;
+        word-break: break-word;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-width: 0px;
+        white-space: nowrap;
+        border-bottom: $ft-td-border-bottom;
+    }    
+
+}
+  
+  
+  

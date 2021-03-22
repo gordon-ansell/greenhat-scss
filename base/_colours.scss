@@ -72,3 +72,28 @@ blockquote {
 blockquote::before {
     color: var(--col-text-secondary);
 }
+
+// ---------------------
+// Flex table.
+// ---------------------
+
+.flextable {
+    border-bottom-color: var(--col-muted);
+
+    .th {
+        background-color: var(--col-muted);
+    }
+
+    .td {
+        border-bottom-color: var(--col-muted);
+    }
+
+    .th > .td {
+        border-bottom-color: var(--col-text-primary);
+    }
+
+    .tr:nth-of-type(even) {
+        background-color: var(--col-bg-secondary);
+    }
+}
+
